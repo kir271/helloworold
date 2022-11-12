@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace helloworold
+namespace LAB4
 {
     internal class Program
     {
@@ -25,6 +25,7 @@ namespace helloworold
             switch (action)
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 
                 case "-":
                     Console.WriteLine(firstValue - secondValue);
@@ -39,6 +40,20 @@ namespace helloworold
                    
                 
 >>>>>>> plus
+=======
+               
+                case "/":
+                    if (secondValue == 0)
+                    {
+                        Console.WriteLine(0);
+                    }
+                    else
+                    {
+                        Console.WriteLine(firstValue / secondValue);
+                    }
+
+                    break;
+>>>>>>> del
                 default:
                     Console.WriteLine("ошибка");
                     break;
