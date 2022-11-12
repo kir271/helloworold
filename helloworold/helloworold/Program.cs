@@ -28,16 +28,8 @@ namespace helloworold
                     Console.WriteLine(firstValue + secondValue);
                     break;
               
-                    if (secondValue == 0)
-                    {
-                        Console.WriteLine(0);
-                    }
-                    else
-                    {
-                        Console.WriteLine(firstValue / secondValue);
-                    }
-
-                    break;
+                   
+                
                 default:
                     Console.WriteLine("ошибка");
                     break;
