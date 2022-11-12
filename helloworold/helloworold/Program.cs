@@ -35,11 +35,15 @@ namespace LAB4
                 case "+":
                     Console.WriteLine(firstValue + secondValue);
                     break;
-              
+                case "*":
                    
-                
+                    Console.WriteLine(firstValue * secondValue);
+                    break;
 
-               
+
+
+
+
                 case "/":
                     if (secondValue == 0)
                     {
