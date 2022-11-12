@@ -48,6 +48,7 @@ namespace helloworold
                     Console.WriteLine("ошибка");
                     break;
             }
+            Console.WriteLine("ошибка");
             Console.ReadLine();
         }
     }
