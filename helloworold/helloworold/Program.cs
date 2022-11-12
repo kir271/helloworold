@@ -24,12 +24,21 @@ namespace helloworold
 
             switch (action)
             {
+<<<<<<< HEAD
                 
                 case "-":
                     Console.WriteLine(firstValue - secondValue);
                     break;
                 
                
+=======
+                case "+":
+                    Console.WriteLine(firstValue + secondValue);
+                    break;
+              
+                   
+                
+>>>>>>> plus
                 default:
                     Console.WriteLine("ошибка");
                     break;
