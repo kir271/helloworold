@@ -24,23 +24,21 @@ namespace LAB4
 
             switch (action)
             {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
                 
                 case "-":
                     Console.WriteLine(firstValue - secondValue);
                     break;
                 
                
-=======
+
                 case "+":
                     Console.WriteLine(firstValue + secondValue);
                     break;
               
                    
                 
->>>>>>> plus
-=======
+
                
                 case "/":
                     if (secondValue == 0)
@@ -53,7 +51,7 @@ namespace LAB4
                     }
 
                     break;
->>>>>>> del
+
                 default:
                     Console.WriteLine("ошибка");
                     break;
