@@ -1,0 +1,8 @@
+C:\Users\moroz\helloworld\helloworold\helloworold\bin\Debug\helloworold.exe.config
+C:\Users\moroz\helloworld\helloworold\helloworold\bin\Debug\helloworold.exe
+C:\Users\moroz\helloworld\helloworold\helloworold\bin\Debug\helloworold.pdb
+C:\Users\moroz\helloworld\helloworold\helloworold\obj\Debug\helloworold.csproj.AssemblyReference.cache
+C:\Users\moroz\helloworld\helloworold\helloworold\obj\Debug\helloworold.csproj.SuggestedBindingRedirects.cache
+C:\Users\moroz\helloworld\helloworold\helloworold\obj\Debug\helloworold.csproj.CoreCompileInputs.cache
+C:\Users\moroz\helloworld\helloworold\helloworold\obj\Debug\helloworold.exe
+C:\Users\moroz\helloworld\helloworold\helloworold\obj\Debug\helloworold.pdb

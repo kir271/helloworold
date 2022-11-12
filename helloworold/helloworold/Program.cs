@@ -10,9 +10,45 @@ namespace helloworold
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, worold!");
-            Console.WriteLine("Oh, hi, Mark!");
-            Console.ReadKey();
+            double firstValue, secondValue;
+            string action;
+
+            Console.WriteLine("Введите A");
+            firstValue = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Введите B");
+            secondValue = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Выберите операцию '+' '-' '*' '/'");
+            action = Console.ReadLine();
+
+            switch (action)
+            {
+                case "+":
+                    Console.WriteLine(firstValue + secondValue);
+                    break;
+                case "-":
+                    Console.WriteLine(firstValue - secondValue);
+                    break;
+                case "*":
+                    Console.WriteLine(firstValue * secondValue);
+                    break;
+                case "/":
+                    if (secondValue == 0)
+                    {
+                        Console.WriteLine(0);
+                    }
+                    else
+                    {
+                        Console.WriteLine(firstValue / secondValue);
+                    }
+
+                    break;
+                default:
+                    Console.WriteLine("ошибка");
+                    break;
+            }
+            Console.ReadLine();
         }
     }
 }
