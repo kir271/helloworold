@@ -24,11 +24,18 @@ namespace LAB4
 
             switch (action)
             {
-                
-                case "*":
-                    Console.WriteLine(firstValue * secondValue);
+               
+                case "/":
+                    if (secondValue == 0)
+                    {
+                        Console.WriteLine(0);
+                    }
+                    else
+                    {
+                        Console.WriteLine(firstValue / secondValue);
+                    }
+
                     break;
-                
                 default:
                     Console.WriteLine("ошибка");
                     break;
